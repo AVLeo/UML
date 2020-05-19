@@ -4,7 +4,7 @@
 
 ## 一、基本定义
 
-![](E:\work\2020\learning\UML\images\20191024135404845.png)
+![](https://github.com/yaoxingle/UML/tree/master/images/20191024135404845.png)
 
 >  在UML中，类使用包含类名、属性和操作且带有分隔线的长方形来表示，如定义一个Employee类，它包含属性name、age和email，以及操作modifyInfo()，在UML类图中该类如图1所示： 
 
