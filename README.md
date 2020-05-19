@@ -4,11 +4,11 @@
 
 ## 一、基本定义
 
-![](https://github.com/yaoxingle/UML/tree/master/images/20191024135404845.png)
+![基本定义说明](https://raw.githubusercontent.com/yaoxingle/UML/master/images/20191024135404845.png)
 
 >  在UML中，类使用包含类名、属性和操作且带有分隔线的长方形来表示，如定义一个Employee类，它包含属性name、age和email，以及操作modifyInfo()，在UML类图中该类如图1所示： 
 
-![](E:\work\2020\learning\UML\images\617148-20160612221055090-339746853.jpg)
+![类图](https://raw.githubusercontent.com/yaoxingle/UML/master/images/617148-20160612221055090-339746853.jpg)
 
  对应的代码如下：
 
@@ -48,7 +48,7 @@ UML规定操作的表示方式为：
 -  “参数列表”表示方法的参数，其语法与属性的定义相似，参数个数是任意的，多个参数之间用逗号“，”隔开。 
 -  “返回类型”是一个可选项，表示方法的返回值类型，依赖于具体的编程语言，可以是基本数据类型，也可以是用户自定义类型，还可以是空类型(void)，如果是构造方法，则无返回类型。 
 
-![](E:\work\2020\learning\UML\images\2012112312.jpg)
+![](https://raw.githubusercontent.com/yaoxingle/UML/master/images/2012112312.jpg)
 
 ## 三、关系
 
@@ -67,7 +67,7 @@ UML规定操作的表示方式为：
 
 如下图所示：Student类与Teacher类继承了Person类 （ 非抽象类 ）。
 
-![](E:\work\2020\learning\UML\images\617148-20160612233246199-1404301867.jpg)
+![](https://raw.githubusercontent.com/yaoxingle/UML/master/images/617148-20160612233246199-1404301867.jpg)
 
 代码示例：
 
@@ -109,7 +109,7 @@ public void teach() {
 
 如下图所示：Car类与Ship类都实现了Vehicle接口或抽象类。 
 
-![](E:\work\2020\learning\UML\images\617148-20160612233430777-736506858.jpg)
+![](https://raw.githubusercontent.com/yaoxingle/UML/master/images/617148-20160612233430777-736506858.jpg)
 
 代码示例：
 
@@ -139,7 +139,7 @@ public void move() {
 
 如下图所示：顾客(Customer)拥有地址(Address)，则Customer类与Address类具有单向关联关系。 
 
-![](E:\work\2020\learning\UML\images\2012112316.jpg)
+![](https://raw.githubusercontent.com/yaoxingle/UML/master/images/2012112316.jpg)
 
 代码示例：
 
@@ -158,7 +158,7 @@ public class Address {
 
 如下图所示：顾客(Customer)购买商品(Product)并拥有商品，反之，卖出的商品总有某个顾客与之相关联。因此，Customer类和Product类之间具有双向关联关系 
 
-![](E:\work\2020\learning\UML\images\2012112315.jpg)
+![](https://raw.githubusercontent.com/yaoxingle/UML/master/images/2012112315.jpg)
 
 代码示例：
 
@@ -178,13 +178,13 @@ private Customer customer;
 
 如下图所示：Node类包含类型为Node的成员变量，也就是“自己包含自己”。  
 
-![](E:\work\2020\learning\UML\images\2012112317.jpg)
+![](https://raw.githubusercontent.com/yaoxingle/UML/master/images/2012112317.jpg)
 
 ### 3.4聚合关系
 
 如下图所示：汽车发动机(Engine)是汽车(Car)的组成部分，但是汽车发动机可以独立存在，因此，汽车和发动机是聚合关系 。
 
-![](E:\work\2020\learning\UML\images\2012112319.jpg)
+![](https://raw.githubusercontent.com/yaoxingle/UML/master/images/2012112319.jpg)
 
 在代码实现聚合关系时，成员对象通常作为构造方法、Setter方法或业务方法的参数注入到整体对象中
 
@@ -215,7 +215,7 @@ public class Engine {
 
 如下图所示：人的头(Head)与嘴巴(Mouth)，嘴巴是头的组成部分之一，而且如果头没了，嘴巴也就没了，因此头和嘴巴是组合关系 。
 
-![](E:\work\2020\learning\UML\images\20121123110.jpg)
+![](https://raw.githubusercontent.com/yaoxingle/UML/master/images/20121123110.jpg)
 
 代码如下：
 
@@ -238,4 +238,4 @@ public class Mouth {
 
  如下图所示：Driver的drive方法只有传入了一个Car对象才能发挥作用，因此我们说Driver类依赖于Car类。 
 
-![](E:\work\2020\learning\UML\images\617148-20160612232951746-9292157.jpg)
+![](https://raw.githubusercontent.com/yaoxingle/UML/master/images/617148-20160612232951746-9292157.jpg)
