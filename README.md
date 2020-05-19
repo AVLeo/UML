@@ -51,27 +51,14 @@ UML规定操作的表示方式为：
 ![](https://raw.githubusercontent.com/yaoxingle/UML/master/images/2012112312.jpg)
 
 ## 三、关系
-
-|    关系    | 说明   | 图例                                                         |
-| ---- | -------------| ------------------------------------------------------------ |
-| 泛化 | 继承关系，指向方(符号左)子类，被指向方(符号右)为父类。| ![](https://raw.githubusercontent.com/yaoxingle/UML/master/images/1589857084924.png) |
-
-| 实现 | 接口的实现关系，指向方（符号左）实现类，被指向方(符号右)为接口类。| ![](https://raw.githubusercontent.com/yaoxingle/UML/master/images/1589857070426.png)|
-
-| 关联 | 关联关系是类与类之间的联结，使一个类知道另一个类的属性和方法。| ![]
-(https://raw.githubusercontent.com/yaoxingle/UML/master/images/1589857120783.png) |
-
-| 聚合 | 整体和部分的关系，指向方(符号左)整体类，被指向方(符号右)为部分类。[可以独立存在] | ![]
-(https://raw.githubusercontent.com/yaoxingle/UML/master/images/1589857235187.png)    |
-
-| 组合 | 整体和部分的关系，指向方(符号左)整体类，被指向方(符号右)为部分类。如果整体没有，部分也不存在[同生共死]。 | ![]
-(https://raw.githubusercontent.com/yaoxingle/UML/master/images/1589857257757.png)    |
-
-| 依赖 | 使用关系，指向方(符号左)使用类，被指向方(符号右)为被使用类   | ![]
-(https://raw.githubusercontent.com/yaoxingle/UML/master/images/1589857282633.png)    |
-
-
-
+关系    | 说明   | 图例  
+-- | --| --
+泛化 | 继承关系，指向方(符号左)子类，被指向方(符号右)为父类。|![](https://raw.githubusercontent.com/yaoxingle/UML/master/images/1589857084924.png)|
+实现 | 接口的实现关系，指向方（符号左）实现类，被指向方(符号右)为接口类。|![](https://raw.githubusercontent.com/yaoxingle/UML/master/images/1589857070426.png)|
+关联 | 关联关系是类与类之间的联结，使一个类知道另一个类的属性和方法。|![](https://raw.githubusercontent.com/yaoxingle/UML/master/images/1589857120783.png)|
+聚合 | 整体和部分的关系，指向方(符号左)整体类，被指向方(符号右)为部分类。[可以独立存在]|![](https://raw.githubusercontent.com/yaoxingle/UML/master/images/1589857235187.png)|
+组合 | 整体和部分的关系，指向方(符号左)整体类，被指向方(符号右)为部分类。如果整体没有，部分也不存在[同生共死]。|![](https://raw.githubusercontent.com/yaoxingle/UML/master/images/1589857257757.png)|
+依赖 | 使用关系，指向方(符号左)使用类，被指向方(符号右)为被使用类。|![](https://raw.githubusercontent.com/yaoxingle/UML/master/images/1589857282633.png)|
 ### 3.1泛化、继承关系
 
 如下图所示：Student类与Teacher类继承了Person类 （ 非抽象类 ）。
